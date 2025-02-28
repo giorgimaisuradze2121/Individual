@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", serif;
+
+}
+
+
+body{
+     background-image: url(./images/bg-pattern-top.svg);
+     background-color: hsl(185, 75%, 39%);
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.container{
+    width: 360px;
+    height: 490px;
+    background-image: none;
+    border-radius: 50px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 4px 0px 2px black;
+}
+
+
+.cover{
+    width: 350px;
+    height: 145px;
+    border-radius: 10px;
+    border: none;
+    background-image: none;
+}
+
+.cover img{
+    width: 360px;
+}
+
+
+.photo img{
+    border: 5px solid;
+    border-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 47.5%;
+    bottom: 50%;
+
+}
+
+.information{
+    position: absolute;
+    left: 46%;
+    bottom: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.number{
+    position: absolute;
+    left: 55%;
+    bottom: 43.5%;
+}
+
+.number h2{
+    color: gray;
+}
+
+
+
+.description{
+    position: absolute;
+    left: 48%;
+    bottom: 38%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.description h3{
+    color: gray;
+}
+
+
+hr{
+    margin-top: 245px;
+}
+
+.followers{
+    position: absolute;
+    left: 43%;
+    bottom: 28.5%;
+}
+
+.followers h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images{
+    position: absolute;
+    left: 42%;
+    bottom: 26%;
+
+}
+.images h3{
+    color: lightgray;
+}
+
+ 
+
+.arvici{
+    position: absolute;
+    left: 48%;
+    bottom: 28.5%;
+}
+
+
+.like{
+    position: absolute;
+    left: 48.5%;
+    bottom: 26%;
+}
+
+
+.like h3{
+    color: lightgray;
+}
+
+
+.aramgonia{
+    position: absolute;
+    left: 53%;
+    bottom: 28.5%;
+
+}
+
+.arsad{
+    position: absolute;
+    left: 53%;
+    bottom: 26%;
+}
+
+.arsad h3{
+    color: lightgray;
+}

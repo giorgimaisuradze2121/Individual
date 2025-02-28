@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container1{
+    width: 100px;
+    height: 100px;
+    background-color:  blue;
+    border: 3px solid black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 30%;
+    bottom: 50%;
+    
+}
+
+.container2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 3px solid black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+}
+
+.container3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 3px solid black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 70%;
+    bottom: 10%;
+}

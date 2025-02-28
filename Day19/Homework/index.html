@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Broo start Coding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Outfit", serif;
+    }
+
+    .container{
+      width: 800px;
+      height: 200px;
+      border-radius: 41px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+      background-color:hsl(228, 56%, 26%);
+      background-image: none;
+      
+    }
+    
+
+
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;;
+      height: 100vh;    
+      background: url(./images/bg-desktop.png)  fixed center ;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      
+    }
+
+    .text h4{
+      font-size: 22px;
+      position: absolute;
+      left: 35%;
+      color :hsl(229, 57%, 11%);
+      background: none;
+    }
+
+
+    .linear1{
+      width: 750px;
+      height: 30px;
+      background-color:hsl(229, 57%, 11%);
+      position: absolute;
+      bottom: 50%;
+      border-radius: 20px;
+    }
+
+
+
+    .linear{
+      color: red;
+      width: 600px;
+      height: 30px;
+      position: fixed;
+      bottom: 50%;
+      background: linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%) );
+      border-radius: 20px;
+      z-index: 1000;
+      
+    }
+
+
+    .burti{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: white;
+      position: fixed;
+      left: 58.5%;
+      bottom: 50%;
+      z-index: 1500;
+    }
+
+
+
+    .image{
+      width: 200px;
+      height: 100px;
+      border-radius: 10px;
+      background-color: white;
+      position: absolute;
+      left: 57%;
+      bottom: 56%;
+    }
+    
+    .image h1{
+      color: black;
+      position: absolute;
+      left: 20%;
+      bottom: 40%;
+    }
+
+   .h2o{
+    position: absolute;
+    left: 46%;
+    bottom: 49%;
+    color: hsl(243, 100%, 93%);
+   }
+
+
+   .number h2{
+     position: absolute;
+     left: 34%;
+     bottom: 47%;
+     color: white;
+     
+   }
+
+   .number h1{
+    position: absolute;
+    left: 61%;
+    bottom: 46.5%;
+    color: white;
+   }
+
+
+   .box{
+    width: 540px;
+    height: 330px;
+    border-radius: 50px;
+    border-top-right-radius: 200px;
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    background-color:hsl(228, 56%, 26%);
+    
+  
+  
+  }
+
+
+  .box img{
+    position: absolute;
+    left: 18%;
+    bottom: 65%;
+    size: 30px;
+  }
+
+
+
+  .folder img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 17%;
+    bottom: 45%;
+    background-color: black;
+    box-shadow: 5px 5px 40px black;
+  }
+  
+
+
+  .icon img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 13.5%;
+    bottom: 45%;
+    background-color: black;
+    box-shadow: 5px 5px 40px black;
+  }
+   
+  .download img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20%;
+    bottom: 45%;
+    background-color: black;
+    box-shadow: 5px 5px 40px black;
+  }
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+     
+    
+
+    <div class="text">
+
+      <h4>You've used 815GB of your storage</h4>
+
+    </div>
+    
+
+    <div class="linear">
+       
+    </div>
+  <div class="linear1">
+       
+
+  </div>
+
+    <div class="burti">
+
+    </div>   
+
+    <div class="image">
+        <h1>185</h1>
+         <h2 class="h2o">GB LEFT</h2>
+        
+    </div>
+
+
+     <div class="number">
+        <h2>0 GB</h2>
+        <h1>1000GB</h1>
+     </div>
+
+
+
+     <div class="box">
+       <img src="./images/logo.svg" alt="">
+     </div>
+
+     <div class="folder">
+            <img src="./images/icon-folder.svg" alt="">
+     </div>
+
+
+     <div class="icon">
+        <img src="./images/icon-document.svg" alt="">
+     </div>
+         
+    <div class="download">
+      <img src="./images/icon-upload.svg" alt="">
+    </div>
+
+
+
+
+  </div>
+</body>
+</html>

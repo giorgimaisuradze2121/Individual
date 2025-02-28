@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+  }
+  
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden; 
+  }
+  
+  .container {
+      width: 1700px;
+      height: 1500px;
+      background-color: white;
+      position: relative; 
+      overflow: hidden; 
+  }
+  
+  .description {
+      position: absolute;
+      left: 50%;
+      bottom: 75%;
+      font-size: 30px;
+      color: hsl(229, 6%, 66%);
+      transform: translateX(-50%);
+  }
+  
+  .description1 {
+      position: absolute;
+      left: 50%;
+      bottom: 70%;
+      font-size: 30px;
+      color: hsl(234, 12%, 34%);
+      transform: translateX(-50%);
+  }
+  
+  .name {
+      width: 400px;
+      height: 50px;
+      position: absolute;
+      left: 50%;
+      bottom: 65%;
+      font-size: 15px;
+      color: hsl(229, 6%, 66%);
+      transform: translateX(-50%);
+  }
+  
+  .block {
+      margin: 50px;
+      width: 400px;
+      height: 300px;
+      border-radius: 5px;
+      border-top: red solid 5px;
+      box-shadow: 0px 2px 2px red;
+      position: relative;
+  }
+  
+  .block h2 {
+      margin: 30px;
+      font-size: 30px;
+      color: hsl(234, 12%, 34%);
+  }
+  
+  .block p {
+      margin: 50px;
+  }
+  
+  .block img {
+      position: absolute;
+      left: 80%;
+  }
+  
+
+
+  .inline{
+      width: 400px;
+      height: 300px;
+      border-radius: 5px;
+      position: absolute;
+      left: 22%;
+      bottom: 20%;
+      border-top: hsl(180, 62%, 55%) solid 5px;
+      box-shadow:  0px 2px 2px hsl(180, 62%, 55%);
+      
+      
+  }
+
+
+  .inline h2{
+    margin: 50px;
+    color: hsl(234, 12%, 34%);
+    font-size: 30px;
+
+    
+    
+  }
+
+  .inline p {
+    margin: 50px;
+    color: hsl(229, 6%, 66%);
+}
+
+.inline img{
+    position: absolute;
+    left: 80%;
+}
+
+
+.third{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    bottom: 0%;
+    left: 43.5%;
+    border-top: hsl(34, 97%, 64%)solid 5px;
+    box-shadow:  0px 2px 2px hsl(34, 97%, 64%);
+    margin-bottom: 30px;
+   
+
+
+
+}
+
+
+.third h2{
+    margin: 50px ;
+    color: hsl(234, 12%, 34%);
+    font-size: 30px;
+}
+
+.third p {
+    margin: 50px;
+    color: hsl(229, 6%, 66%);
+}
+  
+.third img{
+    position: absolute;
+    left: 80%;
+}
+
+
+
+.calculator{
+    width: 400px;
+    height: 300px;
+    border-top:hsl(212, 86%, 64%)solid 5px;;
+    position: absolute;
+    left: 65%;
+    bottom: 20%;
+    box-shadow:  0px 2px 2px hsl(212, 86%, 64%);
+}
+
+
+
+.calculator h2{
+    margin: 50px ;
+    color: hsl(234, 12%, 34%);
+    font-size: 30px;
+}
+
+
+.calculator p{
+    margin: 50px;
+    color: hsl(229, 6%, 66%);
+}
+
+
+
+.calculator img{
+    position: absolute;
+    left: 80%;
+    bottom: 5%;
+}
+

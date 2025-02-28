@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+   
+    
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+   
+}
+
+
+.container{
+    width: 750px;
+    height: 1100px;
+    border-radius: 4px;
+    background-color:  hsl(215, 32%, 27%);
+    box-shadow: 0px 20px 50px  hsl(215, 32%, 27%);
+    
+    
+}
+
+.image{
+    background-color:  hsl(215, 32%, 27%);
+}
+
+
+.image img{
+   margin: 50px;
+   padding: 30px;
+
+
+}
+
+.text h2{
+    margin: 40px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 28%;
+    left: 35%;
+}
+
+
+.text p{
+    width: 500px;
+    padding: 40px;
+    margin: 20px;
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    bottom: 17%;
+    left: 34%;
+    font-size: 23px;
+}
+
+
+.icons{
+    position: absolute;
+    bottom: 14%;
+    left: 35.5%;
+    
+
+
+
+}
+
+
+.icons img{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
+
+
+.icons h2{
+    width: 300px;
+    position: absolute;
+    left: 70%;
+    bottom: 32%;
+    color: white;
+
+}
+
+
+.days{
+    position: absolute;
+    left: 60%;
+    bottom: 16.5%;
+    
+}
+
+.days img{
+    width: 20px;
+    height: 20px;
+ 
+}
+
+
+.days p{
+    width: 460px;
+    position: absolute;
+    left: 96%;
+    color: white;
+    margin-top: -24px;
+    letter-spacing: 2px;
+}
+
+
+
+hr{
+    width: 700px;
+    position: absolute;
+    left: 35%;
+    bottom: 10%;
+    border: solid  hsl(217, 54%, 11%) 2px;
+    border-radius: 20px;
+    
+    
+}
+
+.photo img{
+     width: 50px;
+     position: absolute;
+     left: 36%;
+     bottom: 5%;
+     box-shadow: 2px 0px 15px green;
+     border-radius: 50%;
+     border:  white solid 2px;
+}
+
+.photo h2{
+    position: absolute;
+    left: 40%;
+    bottom: 6.5%;
+    color: hsl(216, 50%, 16%);
+
+
+
+}
+
+
+.meore h2{
+    position: absolute;
+    left: 46%;
+    bottom: 6.5%;
+    color: white;
+}

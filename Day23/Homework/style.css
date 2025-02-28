@@ -1,0 +1,312 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+  }
+
+  body{
+    background-color: hsl(270, 20%, 96%);
+  }
+
+  .container{
+    width: 525px;
+    height: 900px;
+    border: 15px solid white;
+    position: absolute;
+    left: 29%;
+    bottom: 5%;
+    border-radius: 50px;
+    background-color: hsl(270, 20%, 96%);
+  }
+
+
+  .satauri h1{
+    width: 500px;
+    position: absolute;
+    left: 150%;
+    bottom: 69%;
+  }
+
+  .satauri p{
+    position: absolute;
+    color: lightgray;
+    left: 150%;
+    width: 500px;
+    bottom: 60%;
+    font-size: 15px;
+  }   
+
+
+  .linear{
+    width: 495px;
+    height: 120px;
+    border: 1px solid black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  }
+
+
+  .img1 img{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    left: 15%;
+    bottom: 90%;
+  }
+
+  .img1 h3{
+     position: absolute;
+     left: 28%;
+     bottom: 93%;
+     color: white;
+  }
+
+  .img1 p{
+    position: absolute;
+    font-size: 10px;
+    left: 30%;
+    bottom: 91%;
+    color: lightgray;
+  }
+
+  .name h2{
+    position: absolute;
+    left: 90%;
+    bottom: 91%;
+    color: white;
+
+  }
+
+
+  .name h1{
+    position: absolute;
+    left: 5%;
+    bottom: 90%;
+    color: white;
+  }
+
+  .dynamic{
+    width: 250px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: white;
+    position: absolute;
+    left: 23%;
+    bottom: 97%;
+  }
+  
+
+  .border{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 20px;
+    color: blueviolet;
+    background-color: hsl(206, 6%, 79%);
+
+  }
+
+  .box{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    color: blueviolet;
+    background-color: hsl(206, 6%, 79%);
+    margin: 20px;
+    
+  }
+
+
+  .image img{
+    width: 70px;
+    border-radius: 10px;
+    position: absolute;
+    left: 45%;
+  }
+
+  
+  .image1 img{
+    width: 70px;
+    border-radius: 10px;
+    position: absolute;
+    left: 65%;
+  }
+
+ .image2 img{
+    width: 70px;
+    border-radius: 10px;
+    position: absolute;
+    left: 83%;
+ }
+
+  .box1 p{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+  }
+    
+  .box2 p{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    text-align: center;
+  }
+
+
+  .box3 p{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    color: blueviolet;
+    background-color: hsl(206, 6%, 79%);
+    position: absolute;
+    bottom: 30%;
+    margin: 12px;
+  }
+
+  .utf{
+    width: 30px;
+    margin: 12px;
+    height: 30px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    position: absolute;
+    margin: 20px;
+    bottom: 21%;
+    z-index: 10;
+  }
+
+
+  .boxer{
+    width: 250px;
+    height: 70px;
+    border-radius: 19px;
+    position: absolute;
+    bottom: 20%;
+    margin: 10px;
+    background: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+  }
+
+
+  .walk{
+    position: absolute;
+    bottom: 24%;
+    left: 15%;
+  }
+
+
+  .dolar{
+    position: absolute;
+    bottom: 24%;
+    left: 40%;
+    color: white;
+    font-size: 20px;
+  }
+
+
+  .boxer1{
+    width: 250px;
+    height: 70px;
+    border-radius: 19px;
+    position: absolute;
+    bottom: 10%;
+    margin: 10px;
+    background: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+  }
+
+
+  .utf1{
+    width: 30px;
+    margin: 12px;
+    height: 30px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    position: absolute;
+    margin: 20px;
+    bottom: 11%;
+    z-index: 10;
+  }
+
+  .walk1{
+    position: absolute;
+    bottom: 14%;
+    left: 15%;
+  }
+
+
+  .dolar1{
+    position: absolute;
+    bottom: 14%;
+    left: 40%;
+    color: white;
+    font-size: 20px;
+  }
+
+
+
+  .port{
+    width: 420px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    margin: 10px;
+    background-color: white;
+  }
+
+
+  .port p {
+    margin: 20px;
+    padding: 5px;
+    color: lightgray;
+  }
+
+
+  .font{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 83%;
+    bottom: 2%;
+    background-color: hsl(271, 36%, 24%);
+  }
+
+
+  .font p{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 40%;
+    bottom: 12%;
+    font-weight: bold;
+
+  }
+
+
+  .araferi{
+    width: 600px;
+    height: 1000px;
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    position: absolute;
+    left: -120%;
+    bottom: 20%;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    z-index: -1;
+  }

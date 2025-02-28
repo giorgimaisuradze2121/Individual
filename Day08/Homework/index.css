@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(233, 47%, 7%);
+}
+
+ .container{
+    width: 1200px;
+    height: 450px;
+    border: 5px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container1{
+    width: 500px;
+    height: 350px;
+    border: 2px solid black;
+    background-color:  hsl(233, 47%, 7%);
+    position: absolute;
+    left: 10%;
+    
+}
+
+
+.letters{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+    
+
+}
+
+
+.description{
+    margin: 30px;
+    color: cadetblue;
+
+    
+}
+
+
+
+.number{
+    position: absolute;
+    right: 85%;
+    bottom: 60%;
+    color: white;
+
+}
+
+
+.name{
+    position: absolute;
+    right: 84%;
+    bottom: 57%;
+    color: darkblue;
+    font-size: small;
+}
+
+
+
+.number1{
+    position: absolute;
+    right: 80%;
+    bottom: 60%;
+    color: white;
+}
+
+
+
+
+.name1{
+    position: absolute;
+    right: 78%;
+    bottom: 57%;
+    color: darkblue;
+    font-size: small;
+}
+
+
+
+.first{
+    margin: 20px;
+}
+
+
+.number2{
+    position: absolute;
+    right: 74%;
+    bottom: 60%;
+    color: white;
+}
+
+
+.name2{
+    position: absolute;
+    right: 74%;
+    bottom: 57%;
+    color: darkblue;
+    font-size: small;
+}
+
+
+
+
+.image{
+    position: absolute;
+    left: 39%;
+    bottom: 49%;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.image img{
+    width: 500px;
+    height: 350px;
+    background-color: hsl(233, 47%, 7%);
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family:Lexend Deca,sans-serif;
+    font-size: 1.5rem;
+    min-height: 100vh;
+    background-color:  hsl(0,0%,95%) ;
+
+}
+
+main{
+    width: 700px;
+    height: 370px;
+    border-radius: 1rem;
+    display: flex;
+    margin: 2.4rem;
+}
+
+
+
+.Sedans{
+   background-color: hsl(31, 77%, 52%);
+   text-align: center;
+   
+}
+
+.suvs{
+    text-align: center;
+   background-color: hsl(184, 100%, 22%);
+}
+
+
+
+
+
+.luxury{
+    text-align: center;
+    background-color: darkgreen;
+}
+
+
+img{
+    margin-bottom: 3.6rem;
+}
+
+
+
+h1{
+    font-family: Big shoulders display sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 1.5rem;
+}
+
+
+p{
+    font-size: 13.8px;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 2.9rem;
+    margin: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+a:hover{
+    background-color:transparent;
+    color: hsl(0, 0%, 95%);
+;
+}
+
+
+.arvici1{
+    
+    color: orange;
+    background-color: white;
+    
+}
+
+
+
+
+.arvici2{
+    color: darkcyan;
+    background-color: white;
+}
+
+
+.arvici3{
+    color: hsl(179, 100%, 13%);
+    background-color: white;
+}
+
+
+
+
+a{ 
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 35px;
+    padding-left: 20px;
+    padding-right: 20px; 
+
+}
+
+
+
+
+
+
