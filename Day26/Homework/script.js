@@ -1,6 +1,4 @@
 
-
-
 function checkCheckbox() {
     var checkbox = document.getElementById('agree');
     if (checkbox.checked) {
